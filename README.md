@@ -33,7 +33,7 @@ The directory should contain:
 - A JSON file (shotsinfo.json) containing metadata for the images.
 - Optional: A directory (DWARF_DARK) containing dark frames organized by subdirectories based on exposure, - gain, and binning settings.
 
-```/Users/anthony/Pictures/DWARFII/Astronomy
+```Pictures/DWARFII/Astronomy
 |-- raw_M51_10s_60_0048.fits
 |-- raw_M51_10s_60_0049.fits
 |-- shotsinfo.json
@@ -52,8 +52,8 @@ The directory should contain:
 The `shotsinfo.json` file should contain metadata for the images, for example:
 
 ```{
-    "DEC": 47.19072222,
-    "RA": 13.49786111,
+    "DEC": 49.13032222,
+    "RA": 13.42784111,
     "binning": "1*1",
     "exp": "10",
     "format": "FITS",
@@ -71,8 +71,8 @@ The `shotsinfo.json` file should contain metadata for the images, for example:
 Update the `data_directory` and `dark_frames_directory` variables in the script with the actual paths to your directories.
 
 ```
-data_directory = "/Users/anthony/Pictures/DWARFII/Astronomy"  # Update this path
-dark_frames_directory = "/Users/anthony/Pictures/DWARFII/Astronomy/DWARF_DARK"  # Update this path
+data_directory = "Pictures/DWARFII/Astronomy"  # Update this path
+dark_frames_directory = "Pictures/DWARFII/Astronomy/DWARF_DARK"  # Update this path
 ```
 
 ### The script will:

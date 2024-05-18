@@ -9,9 +9,9 @@ from ccdproc import combine, subtract_dark
 
 
 # Define the directories
-data_directory = "/Users/anthony/Pictures/DWARFII/Astronomy/DWARF_RAW_M51_EXP_10_GAIN_60_2024-05-05-23-02-57-312"  # Update this path
+data_directory = "Pictures/DWARFII/Astronomy/DWARF_RAW_M51_EXP_10_GAIN_60_2024-05-05-23-02-57-312"  # Update this path
 json_file = os.path.join(data_directory, "shotsinfo.json")
-dark_frames_directory = "/Users/anthony/Pictures/DWARFII/Astronomy/DWARF_DARK"  # Update this path
+dark_frames_directory = "Pictures/DWARFII/Astronomy/DWARF_DARK"  # Update this path
 
 # Load the JSON metadata file
 with open(json_file, "r") as f:
